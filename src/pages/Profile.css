@@ -1,0 +1,36 @@
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.head {
+  font-size: 220%;
+  font-style: oblique;
+  text-decoration: solid;
+  font-weight: 200%;
+  text-decoration: wavy;
+
+  /* font-weight: 500%; */
+}
+.input {
+  font-weight: 150%;
+}
+.place {
+  text-align: center;
+}
+.back {
+  margin-top: 10px;
+  font-size: large;
+  border-radius: 5px;
+  font-weight: bolder;
+}

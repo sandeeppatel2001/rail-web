@@ -1,0 +1,134 @@
+.in {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 120%;
+}
+.input {
+  font-size: 150%;
+  width: 110%;
+  margin-left: 20px;
+  margin-bottom: 15px;
+
+  text-align: center;
+}
+.swap {
+  margin: 10px;
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: rgb(156, 214, 248);
+  border: rgba(0, 0, 0, 0.945) solid 0.02px;
+  border-radius: 35px;
+}
+.input-source {
+  display: flex;
+
+  font-size: xx-large;
+  column-gap: 30px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.input-destination {
+  display: flex;
+  flex-direction: row;
+}
+.destiny {
+  font-size: 100px;
+  letter-spacing: 2px;
+  color: #1c87eb;
+  font: bold 52px Helvetica, Arial, Sans-Serif;
+  text-shadow: 1px 1px #55a5ef, 2px 2px#55a5ef, 3px 3px #55a5ef, 4px 4px #55a5ef,
+    5px 5px#55a5ef, 6px 6px #55a5ef;
+  font-style: oblique;
+  text-align: center;
+}
+.get-ticket {
+  background-color: #55a5ef;
+  padding: 2.5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 10px;
+}
+.Date,
+.date {
+  display: flex;
+  flex-direction: row;
+  white-space: 50%;
+}
+.day {
+  margin-left: 10px;
+
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  text-align: center;
+  height: 25%;
+}
+@media screen and (max-width: 500px) {
+  .input {
+    font-size: 30%;
+  }
+  .in {
+    padding-left: 15px;
+    font-size: 80%;
+  }
+  .date {
+    row-gap: 30%;
+    display: flex;
+    float: left;
+    flex-wrap: nowrap;
+    font-size: 40%;
+    flex-direction: column-reverse;
+  }
+  .last {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer,
+  .nav {
+    width: 10%;
+  }
+  .image {
+    width: 10%;
+    height: 10%;
+  }
+}
+.get-ticket:hover {
+  background-color: darkcyan;
+}
+.swap:hover {
+  background-color: rgb(165, 241, 203);
+}
+.last {
+  display: flex;
+  flex-direction: row;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  width: 100%;
+}
+.li {
+  font-weight: bold;
+  font-style: italic;
+  padding-right: 30px;
+  color: white;
+}
+.fotter {
+  /* position: absolute; */
+  width: 100%;
+  bottom: 0px;
+  background-color: black;
+}
